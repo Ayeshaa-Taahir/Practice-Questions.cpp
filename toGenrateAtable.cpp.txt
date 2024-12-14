@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int  i,no;
+    
+    cout<<"Enter a number to generate a table"<<endl;
+    cin>>no;
+    
+    for(i=1;i<=10;i++){
+        cout << no << "*" << i << "=" << no*i <<endl;
+      
+    }
+    return 0;
+}
